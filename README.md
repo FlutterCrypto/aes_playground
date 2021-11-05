@@ -75,7 +75,8 @@ Ausgabe:
 
 Tested on Android 11 (SDK 30) Emulator
 Android 12 (SDK 31) Emulator
-Android 7 (SDK 24) ? Der Emulator ist derzeit nicht startfähig
+Android 6 (SDK 23) Emulator
+Android 5 (SDK 21) Emulator
 iOS 15 Emulator
 iOS 11.4 Emulator
 
