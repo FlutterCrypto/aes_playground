@@ -26,6 +26,22 @@ appended in AndroidManifest.xml:
 
 project is null safety
 
+Flutter 2.5.3 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision 18116933e7 (vor 3 Wochen) • 2021-10-15 10:46:35 -0700
+Engine • revision d3ea636dc5
+Tools • Dart 2.14.4
+
+Android Studio Arctic Fox | 2020.3.1 Patch 3
+Build #AI-203.7717.56.2031.7784292, built on October 1, 2021
+Runtime version: 11.0.10+0-b96-7249189 aarch64
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+macOS 11.6.1
+GC: G1 Young Generation, G1 Old Generation
+Memory: 2048M
+Cores: 8
+Registry: external.system.auto.import.disabled=true
+Non-Bundled Plugins: Dart, org.jetbrains.kotlin, io.flutter, org.intellij.plugins.markdown
+
 /Users/michaelfehr/flutter/bin/flutter clean
 
 https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
@@ -39,6 +55,15 @@ Passwort: Passwort1234
 Ausgabe:
 
 {
+"algorithm": "AES-256 CBC PBKDF2",
+"iterations": "15000",
+"salt": "HFRpHumEM1VQOOYtkQPXe8FC8cMgA3uP3s8iIuvLY4s=",
+"iv": "2tVlCfaEmA1TX1BFDs3srA==",
+"ciphertext": "7vSERqidtwIEm8Lty7EDxGl4UkunTIvFkLnJDP6WRgw=",
+"gcmTag": "nicht benutzt"
+}
+
+{
 "algorithm": "AES-256 GCM PBKDF2",
 "iterations": "15000",
 "salt": "CxvOsOKsJQ+I0sZlFKoG1+PtM24zsZpvXhtbECRhyGE=",
@@ -47,6 +72,11 @@ Ausgabe:
 "gcmTag": "stK/u/IsGzP5vgB9tpb8PA=="
 }
 
+Tested on Android 11 (SDK 30) Emulator
+Android 12 (SDK 31) Emulator
+Android 7 (SDK 24) ? Der Emulator ist derzeit nicht startfähig
+iOS 15 Emulator
+iOS 11.4 Emulator
 
 
 ## Getting Started
