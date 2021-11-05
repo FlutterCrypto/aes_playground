@@ -46,6 +46,7 @@ Non-Bundled Plugins: Dart, org.jetbrains.kotlin, io.flutter, org.intellij.plugin
 
 https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
 
+
 AES GCM-256 PBKDF2 example
 
 Klartext: Mein wichtiges Geheimnis
