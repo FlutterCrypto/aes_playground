@@ -42,6 +42,15 @@ Cores: 8
 Registry: external.system.auto.import.disabled=true
 Non-Bundled Plugins: Dart, org.jetbrains.kotlin, io.flutter, org.intellij.plugins.markdown
 
+
+Android Studio Arctic Fox Version 2020.3.1 Patch 3
+Build #AI-203.7717.56.2031.7784292
+Runtime version: 11.0.10+0-b96-7249189 aarch64
+VM: OpenJDK 64-Bit Server VM
+Flutter 2.5.3 channel stable Framework Revision 18116933e7
+Dart 2.14.4
+
+
 /Users/michaelfehr/flutter/bin/flutter clean
 
 https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
