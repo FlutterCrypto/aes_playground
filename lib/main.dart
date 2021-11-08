@@ -38,7 +38,7 @@ class _MainFormPageState extends State<MainFormPage> {
   }
 
   final _formKey = GlobalKey<FormState>();
-  String dropdownValue = 'Bitte wählen Sie einen Algorithmus';
+  String dropdownValue = 'Bitte wählen Sie einen Algorithmus'; // please choose an algorithm
 
   BoxDecoration linkBoxDecoration() {
     return BoxDecoration(
@@ -59,6 +59,7 @@ class _MainFormPageState extends State<MainFormPage> {
       decoration: linkBoxDecoration(), // <--- BoxDecoration here
       child: Text(
         'Beschreibung des Programms: http://fluttercrypto.bplaced.net/aes-playground',
+        //'Program description: http://fluttercrypto.bplaced.net/aes-playground',
         style: TextStyle(
           fontSize: 18,
           color: Colors.blue,
@@ -77,8 +78,9 @@ class _MainFormPageState extends State<MainFormPage> {
       decoration: linkBoxDecoration(), // <--- BoxDecoration here
       child: Text(
         'verwendete Kryptographie Bibliothek:'
-            '\npointycastle Version 3.3.5'
-            '\nhttps://pub.dev/packages/pointycastle',
+        //'Used crypto library:'
+        '\npointycastle Version 3.3.5'
+        '\nhttps://pub.dev/packages/pointycastle',
         style: TextStyle(
           fontSize: 14,
           color: Colors.blue,
@@ -105,12 +107,14 @@ class _MainFormPageState extends State<MainFormPage> {
               children: <Widget>[
                 Text(
                   'Diese App demonstriert die symmetrische Verschlüsselung auf Basis des AES Algorithmus.',
+                  //'This app is demonstrating the symmetric encryption on base of the AES algorithm.',
                   style: Theme.of(context).textTheme.headline6,
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: 20),
                 Text(
                   'Bitte wählen Sie einen Algorithmus\naus der Liste aus:',
+                  // 'Please choose an algorithm:',
                   style: Theme.of(context).textTheme.headline6,
                   textAlign: TextAlign.center,
                 ),
@@ -129,6 +133,7 @@ class _MainFormPageState extends State<MainFormPage> {
                   ),
                   decoration: InputDecoration(
                     labelText: 'wählen Sie einen Algorithmus',
+                    //labelText: 'choose an algorithm',
                     border: OutlineInputBorder(),
                   ),
                   onChanged: (String? newValue) {
