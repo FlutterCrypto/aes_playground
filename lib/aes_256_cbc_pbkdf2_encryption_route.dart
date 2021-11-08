@@ -8,7 +8,7 @@ import 'package:pointycastle/export.dart' as pc;
 class Aes256CbcPbkdf2EncryptionRoute extends StatefulWidget {
   const Aes256CbcPbkdf2EncryptionRoute({Key? key}) : super(key: key);
 
-  final String title = 'Verschlüsselung';
+  final String title = 'CBC Verschlüsselung';
   final String subtitle = 'AES-256 CBC PBKDF2';
 
   @override
