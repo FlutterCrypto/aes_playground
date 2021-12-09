@@ -4,7 +4,7 @@ AES Cryptography with Flutter
 
 version 1.0.0
 
-For more information see http://fluttercrypto.bplaced.net/aes-playground
+For more information see http://fluttercrypto.bplaced.net/aes-playground-pc/
 
 uses pointycastle: ^3.3.5 for encryption
 

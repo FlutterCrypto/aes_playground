@@ -58,8 +58,8 @@ class _MainFormPageState extends State<MainFormPage> {
       padding: const EdgeInsets.all(10.0),
       decoration: linkBoxDecoration(), // <--- BoxDecoration here
       child: Text(
-        'Beschreibung des Programms: http://fluttercrypto.bplaced.net/aes-playground',
-        //'Program description: http://fluttercrypto.bplaced.net/aes-playground',
+        'Beschreibung des Programms: http://fluttercrypto.bplaced.net/aes-playground-pc/',
+        //'Program description: http://fluttercrypto.bplaced.net/aes-playground-pc/',
         style: TextStyle(
           fontSize: 18,
           color: Colors.blue,
@@ -82,7 +82,7 @@ class _MainFormPageState extends State<MainFormPage> {
         '\npointycastle Version 3.3.5'
         '\nhttps://pub.dev/packages/pointycastle',
         style: TextStyle(
-          fontSize: 14,
+          fontSize: 18,
           color: Colors.blue,
           decoration: TextDecoration.none,
         ),
@@ -244,8 +244,7 @@ class _MainFormPageState extends State<MainFormPage> {
                   target: LinkTarget.blank, // new browser, not in app
                   // don't forget to add queries in AndroidManifest.xml
                   // and url scheme in Info.plist file
-                  //uri: Uri.parse('https://flutter.dev'),
-                  uri: Uri.parse('http://fluttercrypto.bplaced.net/aes-playground/'),
+                  uri: Uri.parse('http://fluttercrypto.bplaced.net/aes-playground-pc/'),
                   builder: (context, followLink) => GestureDetector(
                     onTap: followLink,
                     child: linkWidget(),
