@@ -120,6 +120,7 @@ class _MainFormPageState extends State<MainFormPage> {
                 ),
                 SizedBox(height: 30),
                 DropdownButtonFormField<String>(
+                  isExpanded: true,
                   isDense: false,
                   itemHeight: 48,
                   //what you need for height
